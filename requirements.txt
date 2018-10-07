@@ -1,0 +1,4 @@
+requests
+prance
+bs4
+jinja2

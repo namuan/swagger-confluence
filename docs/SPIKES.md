@@ -11,7 +11,7 @@ Then we have setup an Admin (admin) user with password (P4ssw0rd)
 
 Create a new Space "API Documentation"
 
-Then add some [content](sample.html) on the page
+Then add some content on the page
 
 Then we need to enable and get API Tokens to access Confluence
 
@@ -41,7 +41,6 @@ curl "http://docker-ip:8090/rest/api/content/{results[0].id}?expand=body.storage
 ##### To Update Page Content
 
 * We need to increment version that we retrieve from the last call
-* We need to remove \ before " other the server complains about the data format
 
 ```
 curl -X "PUT" "http://docker-ip:8090/rest/api/content/{results[0].id}?expand=body.storage" \
