@@ -1,5 +1,7 @@
 ## API Documentation in Confluence
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/31f55a915b49c6603125/maintainability)](https://codeclimate.com/github/namuan/swagger-confluence/maintainability)
+
 A Python script to update swagger documentation in a confluence page. 
 
 Instead of replacing the whole page, this will only replace anchored documentation within Confluence `expand` macro blocks.
